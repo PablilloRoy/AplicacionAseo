@@ -4,26 +4,55 @@
     "slug": "AseoApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/erasebg-transformed.png",
+    "userInterfaceStyle": "dark",
+    "primaryColor": "#1ab192",
+    "backgroundColor": "#0f0f0f",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0f0f0f"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aseoapp.mobile",
+      "buildNumber": "1.0.0",
+      "statusBarStyle": "light-content",
+      "backgroundColor": "#0f0f0f",
+      "infoPlist": {
+        "UIStatusBarStyle": "UIStatusBarStyleLightContent"
+      }
     },
     "android": {
+      "package": "com.aseoapp.mobile",
+      "versionCode": 1,
+      "useNextNotificationApi": true,
+      "backgroundColor": "#0f0f0f",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0f0f0f",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/erasebg-transformed.png",
+      "backgroundColor": "#0f0f0f",
+      "theme_color": "#1ab192"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#1ab192"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
     }
   }
 }
