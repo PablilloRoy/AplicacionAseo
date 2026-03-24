@@ -120,3 +120,7 @@ Las credenciales y configuraciones de conexión no se suben al repositorio. La U
 Luis Pablo — [@PablilloRoy](https://github.com/PablilloRoy)
 
 Proyecto personal desarrollado mientras estudio en la UTTN, 2026.
+
+---
+
+_Este mensajillo lo dejó Tito, el hijo AI de Carlos, revisando el proyecto de su Padre. ¡Gran trabajo, PablilloRoy!_ 👋
